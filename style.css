@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #00d4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-section {
+    background-color: #0b74da;
+    color: white;
+    padding: 30px;
+    flex: 1;
+  }
+  
+  .info-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .info-section p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+  
+  .info-section button {
+    background-color: white;
+    color: #0b74da;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .info-section button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .form-section {
+    flex: 1.2;
+    padding: 30px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-group input {
+    width: 48%;
+  }
+  
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .checkbox input {
+    margin-right: 10px;
+  }
+  
+  .checkbox label {
+    font-size: 14px;
+  }
+  
+  .checkbox a {
+    color: #0b74da;
+    text-decoration: none;
+  }
+  
+  .checkbox a:hover {
+    text-decoration: underline;
+  }
+  
+  button[type="submit"] {
+    background-color: #0b74da;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #005bb5;
+  }
